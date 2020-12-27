@@ -2,15 +2,13 @@ package cn.xinill;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileSystemView;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.File;
 
 public class IUI {
     public void ui(){
         JFrame frame = new JFrame("哈夫曼编码压缩解压界面");
-        frame.setSize(700, 300); //设置界面宽，高。
-        frame.setLocation(900, 200); //设置界面在屏幕中的位置
+        frame.setSize(600, 200); //设置界面宽，高。
+        frame.setLocation(600, 400); //设置界面在屏幕中的位置
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);//设置布局为null。
 
